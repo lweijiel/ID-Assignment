@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--head-->
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--title-->
+    <title>My &Xi; Portfolio</title>
+
+    <!--links-->
+
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="images/logo.png" />
+
+    <!--css-->
+    <link href="css/stylesheet.css" rel="stylesheet">
+
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <!--googlefonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400&display=swap" rel="stylesheet">
+
+    <style>
+            .container {
+                display: flex;
+                width: 100%;
+                background-color: #fff;
+                flex-wrap: wrap;
+                /*wrap flex items to a new row if not enough space */
+    
+            }
+    
+            /* flex item of 20% per item */
+            .flex-item {
+                padding: 2%;
+                flex-grow: 1;
+                flex-basis: 15%;
+                /* 15% for borders*/
+    
+                display: flex;
+                flex-direction: column;
+                /* so child elements can use flexbox stuff too! */
+                /* switching on borders will force the 5th flex item to move down*/
+                border: 1px solid #D3D3D3;
+    
+    
+                /* let's set random images if we want to create cover images */
+                /*
+          background-image: url("https://picsum.photos/400/400");
+          background-size: cover;
+          */
+            }
+    
+            .flex-img img {
+                max-width: 100%;
+            }
+    
+            .flex-info {
+                margin-top: auto;
+            }
+    
+            @media (max-width: 920px) {
+                .flex-item {
+                    flex: 1 21%;
+                }
+          /* This is a flex shorthand */
+          /* we set 
+            flex-grow: 1; 
+            flex-basis: 21%;
+            Flex shorthand: https://developer.mozilla.org/en-US/docs/Web/CSS/flex
+            Understand flex grow: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow
+          */
+            }
+    
+        img{
+          width: 400px;
+        }
+    @media screen and (max-width: 576px)
+    {
+      .flex-item
+      {
+        flex-basis: 46%;
+        flex-grow:0;
+        flex: 0 1 45%;
+      }
+    }
+    
+        </style>
+</head>
+
+<!--body-->
+
+<body>
+
+    <!--header-->
+
+    <header>
+        <nav>
+
+            <!--logo-->
+            <a href="index.html"><img id="logo" src="images/logo.png" alt="Logo"></a>
+
+            <!--navbar-->
+            <div class="navbar">
+                <a href="blog.html">Blog</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="index.html">Home</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <!--image-->
+
+    <section>
+        <figure>
+
+            <!--heroimage-->
+            <div class="heroportfolio">
+
+                <!--herotext-->
+                <div class="herotext">
+
+                    <!--links-->
+                    <h1><a href="portfolio.html">Portfolio</a></h1>
+                    <h5><a href="#aboutme">About Me</a></h5>
+                    <h5><a href="blog.html#feedback">Feedback</a></h5>
+                    <h5><a href="#contactme">Contact Me</a></h5>
+
+                </div>
+
+            </div>
+
+        </figure>
+    </section>
+
+    <!--iconbar-->
+
+    <div class="iconbar">
+        <a href="https://www.instagram.com/wjweijiewj/" class="instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/Teo Wei Jie" class="facebook"><i class="fab fa-facebook-f"></i></a>
+    </div>
+
+    <!--portfolio-->
+
+    <section>
+        <article>
+
+            <!--aboutme-->
+
+            <div id="aboutme">
+                <h2>About Me</h2>
+                <hr>
+                <h3>Welcome to my Personal Webpage!</h3>
+
+                <p>
+                    I am Teo Wei Jie, a <b>Year 1</b> student from <a href="https://www.np.edu.sg/"
+                            target="_blank">Ngee Ann Polytechnic</a>, and I am currently pursing a <a
+                            href="https://www.np.edu.sg/ict/Pages/it.aspx"
+                            target="_blank">Diploma in Information Technology</a>
+                            On top of that, I am also pursuing a second Diploma in Outdoor Adventure Learning. 
+
+                        Here you will find more information about me, including my <a href="#leadership">Leadership</a>,
+                        <a href="#achievements">Achievements</a>, and my <a href="#testimonial">Testimonial</a>.
+                </p>
+
+                <h4>
+                    <sup><i class="fas fa-quote-left"></i></sup>
+                    Technology resonates within me
+                    <sup><i class="fas fa-quote-right"></i></sup>
+                </h4>
+
+                <p>
+                    I'm the kind of person who likes to manage data, especially when these data are used to help the society 
+                        in terms of data handling and finance. I love to play with database as the data can be used for meaningful 
+                        purposes like setting up a school system with many different classes. I feel a sense of accomplishment when 
+                        the database is structured, but sometimes, huge database requires multiple personnel working on it. Therefore, 
+                        the segregating of duties is needed. AKA, Standard Operating Procedure. Usually after a few glance of how things 
+                        are done, I would pick up things fast.
+                </p>
+
+                <h4>
+                    <sup><i class="fas fa-quote-left"></i></sup>
+                    CCAs and Side Hobbies
+                    <sup><i class="fas fa-quote-right"></i></sup>
+                </h4>
+
+                <p>
+                    My side hobby includes taking photographs and this prompts me to join the Photography Club in Ngee Ann Polytechnic to expand 
+                        my knowledge on photography.
+                        <br>
+                        <br>
+                        The second CCA I have is Scouts as it was my CCA in secondary school, I am still actively involved with the programs and activities. I love to seek adventures as I like to be 
+                        exposed to variety of outdoor activities such as trekking, hiking, running, kayaking, and playing basketball. I like to be exposed to sun, adventure and sports. 
+                        <br>
+                        <br>
+                        I may seem like an overachiever, but it's actually my passion. No matter what obstacles come ahead of me, I am confident that I could get through these tough times with one step at a time!
+                </p>
+
+                <hr>
+
+            </div>
+
+            <!--leadership image-->
+            <figure>
+                <div class="leadership"></div>
+            </figure>
+
+            <!--leadership-->
+
+            <div id="leadership">
+                <h2>Leadership</h2>
+                <hr>
+
+                <p>
+                    Coming from <a href="https://jurongsec.moe.edu.sg/"
+                        target="_blank">Jurong Secondary School</a>, a leadership position is not hard to obtain as there are many opportunities for everyone
+                        to have. For me, I started my leadership journey as my Class Monitor in 2013. It wasn't a big achievement but it was a
+                        small step. When I progress to
+                </p>
+
+                <hr>
+
+            </div>
+
+            <!--achievements image-->
+            <figure>
+                <div class="achievements"></div>
+            </figure>
+
+            <!--achievements-->
+
+            <div id="achievements">
+                <h2>Achievements</h2>
+                <hr>
+
+                <ul>
+                    <li>National Youth Achievement Award Silver</li>
+                    <li>GCE O-Level 12 Points</li>
+                </ul>
+
+                <hr>
+
+            </div>
+
+            <!--testimonial image-->
+            <figure>
+                <div class="testimonial"></div>
+            </figure>
+
+            <!--testimonial-->
+
+            <div id="testimonial">
+                <h2>Testimonial</h2>
+                <h3>Jurong Secondary School</h3>
+
+                <p>
+                    <i class="fas fa-quote-left"></i>
+                    Teo Wei Jie was a student of <a href="https://jurongsec.moe.edu.sg/"
+                        target="_blank">Jurong
+                        Secondary School</a> from 2013 to 2016, he sat for Singapore-Cambridge GCE N-Level Examination in 2016
+                </p>
+
+                <p>
+                    Wei Jie is a responsible and reliable monitor for his class from 2013 to 2016, As a friend to his classmates, Wei Jie is loyal and dependable. As class monitor,
+                    he has shown maturity and responsibility in leading his classmates. H leads discussions with his teachers and classmates in order to ensure that a conducive
+                    and optimal learning environment is maintained in class. He displays maturity in his interaction with his teachers. He has a good understanding of the bigger picture and able to tailor his 
+                    interaction with his classmates in order to achieve set objectives. He also helps in classmates in their studies. He is often seen staying back behind in class to tutor his classmates in Maths and Science.>
+
+                <p>
+                    Wei Jie has also proven himself an exemplary student. He consistently works hard to improve his grades. He sets high standards for himself and displays inspiring discipline and focus 
+                    to achieve his goals. As a student, Wei Jie has shown that he has the values of loyalty, industry, sincerity and love espoused by the school.
+                </p>
+
+                <p>
+                    Wei Jie had a fulfilling and outstanding CCA experience in the school. He was a member of the Scouts from 2013 to 2016. He was passionate about learning and inspiring his fellow Scouts. 
+                    With his active participation and dediation to his CCA, he helped his unit achieve the Frank Cooper Sands Gold Award for four consecutive years since 2013 to 2016. He represented the school in various
+                     competitions and earned himself various awards. He achieved Silver in the District Field Day Competition in 2014 and improved it to a gold Award in 2015. 
+                     Wei Jie is a charismatic and influential leader. He was promoted annually in various leadership positions from 2014, culminating in his final rank of Troop Leader in 2015. He was also the class monitor from 2013 to 2015
+                      and in the Executive Committee in the Student Council.
+                </p>
+
+                <p>
+                    He completed 255 hours of Values in Action (VIA) and Community Involvement Programme (CIP) activities, Wei Jie also has a keen interest in sports. He participated actively in various sporting activities, like 
+                    the Annual Cross Country Meet, where he took part in throughout his four years in the school. He also represented his class in the Annual inter-class Games from 2014 - 2016, He took the University of New South Wales International 
+                    Competitions and Assessments for Schools (UNSW ICAS) Science Test in 2016. As a testament to his active pursuit for a holistic education, he was awarded the National Youth Achievement Award in 2014.
+                </p>
+
+                <p>
+                    Wei Jie has proven himself to be an all rounded student. His dedication towards achieving his best in all his endeavours has seen him become a positive role model for his peers. He has 
+                    indeed a promising future ahead of him.
+                    <i class="fas fa-quote-right"></i>
+                </p>
+
+                <h3>&sim; End &sim;</h3>
+
+            </div>
+
+        </article>
+    </section>
+
+    <!--form-->
+
+    <section>
+        <div id="contactme">
+
+            <form>
+
+                <label for="fullname">Full Name <sup>&lowast;</sup></label><br>
+                <input type="text" id="fullname" name="fullname" placeholder="John Tan" autocomplete="on" required><br>
+
+                <label for="subject">Subject <sup>&lowast;</sup></label><br>
+                <input type="text" id="subject" name="subject" placeholder="Business Offer" required><br>
+
+                <label for="email">Email <sup>&lowast;</sup></label><br>
+                <input type="email" id="email" name="email" placeholder="JohnTan@gmail.com" autocomplete="on" required><br>
+
+                <label for="message">Message <sup>&lowast;</sup></label><br>
+                <textarea id="message" name="message" maxlength="500" rows="10" placeholder="500 characters max"
+                    required></textarea><br>
+
+                <input type="submit" value="Submit">
+
+            </form>
+
+            <article>
+                <h2>Contact Me</h2>
+                <hr>
+                <p>Please fill in the <b>form</b> on the <b>left</b> to get in touch with me.</p>
+                <p>Alternatively, you could <b>email</b> me here:</p>
+                <a href="mailto:wjjiejie02@gmail.com"><i class="fas fa-envelope"></i></a>
+                <p><sup>&lowast;</sup><strong>Denotes a required field.</strong></p>
+                <hr>
+            </article>
+
+        </div>
+    </section>
+
+    <!--footer-->
+
+    <footer>
+
+        <!--image-->
+
+        <section>
+            <figure>
+
+                <!--text-->
+                <h2>Teo Wei Jie</h2>
+                <h2>original, quality, content</h2>
+                <p>Singapore</p>
+                <p>Copyright &copy; 2020 Teo Wei Jie &bull; All rights reserved.</p>
+
+                <!--icons-->
+                <div class="footericons">
+                    <a href="https://www.instagram.com/wjweijiewj/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/Teo Wei Jie"><i class="fab fa-facebook-f"></i></a>
+                </div>
+
+            </figure>
+        </section>
+
+        <!--bottom footer-->
+
+        <figure>
+            <div class="footer">
+
+                <!--portfolio-->
+                <div id="portfolio">
+                    <h1>Portfolio</h1>
+                    <a href="#aboutme">About Me</a>
+                    <a href="#leadership">Leadership</a>
+                    <a href="#achievements">Achievements</a>
+                    <a href="#testimonial">Testimonial</a>
+                    <a href="#contactme">Contact Me</a>
+                </div>
+
+                <!--blog-->
+                <div id="blog">
+                    <h1>Blog</h1>
+                    <a href="blog.html#feedback">Feedback</a>
+                </div>
+
+                <!--credits-->
+                <div id="credits">
+                    <h1>Credits</h1>
+                    <a href="https://fontawesome.com/">Icons</a>
+                    <a href="https://www.toptal.com/designers/subtlepatterns/prism/">Footer Texture</a>
+                    <a href="https://www.toptal.com/designers/subtlepatterns/email-pattern/">Form Texture</a>
+                </div>
+
+                <!--subscribe-->
+                <div id="subscribe">
+                    <h1>Subscribe</h1>
+                    <form>
+                        <input type="email" name="email" placeholder="Your email here..." required>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+
+            </div>
+        </figure>
+
+    </footer>
+
+</body>
+
+</html>
