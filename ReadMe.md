@@ -1,50 +1,38 @@
-Your Project's Name
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
-Essentially, this part is your sales pitch.
+Wei Jie's Portfolio & Blog
+This website covers my Portfolio and Blog for future employers to look at for hire. It has details such as my Testimonial, Achievements, Leadership, Hobbies and About Me.
 
 Design Process:
 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This Website was created with the intent of sharing my personal life with employers who are looking to hire. I included some personal achievements and volunteer experience to show my efforts outside of school ciriculum.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+I created this website with proper color contrast so that text will be visible instead of poor contrast.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+In this website, user can get a look of my picture in the Home Page (Index.html) so they will get a glimpse of who I am. 
+I didn't want this website to be too formal, but add a pinch of my cheerful personality. Hence, the less formal Photo in the Home Page.
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The Home page has nothing as I want the user interface to attract employers attention without too much text which might be too formal and boring.
+
+Moving on to the next page (Portfolio.html) I included some common items found in a portfolio like my Course of Study, Why I chose the course, CCAs and Side Hobbies, Leadership Experience, Achievements, Testimonial and a Form for employers to leave any queries or send an Email.
+
+Lastly, my Blog Page (blog.html) which has my thoughts on my Life in Ngee Ann and Life in Scouts. This was included for employers or readers to read and understand what I go through in School and Outside School. 
 
 Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Logo - Allows readers to go back to the main page.
+Navigation Bar - Allows readers to navigate to different HTML pages.
+Buttons - For quick access to About Me, Contact me and Feedbacks.
+Instagram and Facebook Icon - Access to my social media.
+Footer - Quick access and links to Fonts used and everything in the website.
+Hyperlinks - For employers or readers from other countries, I've added some hyperlink to define some terms.
 
 Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Proper implementation of Responsive HTML and Quick access to my portfolio (Word document).
 
 Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
+Fonts Used - https://fonts.google.com/specimen/Montserrat 
+
 Media
-The photos used in this site were obtained from ...
+https://pixabay.com/images/search/laptop/
+The photos used in this site were obtained from https://www.shutterstock.com/category/backgrounds-textures?kw=%2Bfree%20%2Bphoto%20%2Bbackground&c3apidt=p57702354606&gclsrc=ds&gclsrc=ds
+
 Acknowledgements
-I received inspiration for this project from X
+I received inspiration for this project from my ITE Lecturers
